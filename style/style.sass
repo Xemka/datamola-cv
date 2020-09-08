@@ -43,13 +43,23 @@ body
     .contacts
         margin: 90px 0 -130px 65%
 
-        p
-            display: inline-block
-            color: #fff
-            font-family: $text
-            font-size: 25px
-            font-weight: 100
-            vertical-align: 20%
+        .social
+            p
+                display: inline-block
+                color: #fff
+                font-family: $text
+                font-size: 25px
+                font-weight: 100
+                vertical-align: 20%
+                transition: .5s
+            
+            &:hover
+                cursor: pointer
+                p
+                    color: #c8c8c8
+                
+                &:last-child
+                    cursor: text
 
         .logo
             display: inline-block

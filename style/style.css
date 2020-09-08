@@ -59,13 +59,27 @@ body {
   margin: 90px 0 -130px 65%;
 }
 
-.profile .contacts p {
+.profile .contacts .social p {
   display: inline-block;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 25px;
   font-weight: 100;
   vertical-align: 20%;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.profile .contacts .social:hover {
+  cursor: pointer;
+}
+
+.profile .contacts .social:hover p {
+  color: #c8c8c8;
+}
+
+.profile .contacts .social:hover:last-child {
+  cursor: text;
 }
 
 .profile .contacts .logo {
